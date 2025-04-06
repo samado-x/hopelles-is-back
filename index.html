@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hopeless Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: url('login_bg.jpeg') no-repeat center center fixed;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-black bg-opacity-60">
+  <div class="bg-white bg-opacity-90 backdrop-blur-md rounded-2xl p-8 w-full max-w-md shadow-2xl">
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-6">Hopeless Community</h2>
+    <form class="space-y-4">
+      <div>
+        <label class="block text-gray-700 font-medium mb-1" for="email">Email</label>
+        <input class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" type="email" id="email" placeholder="you@example.com">
+      </div>
+      <div>
+        <label class="block text-gray-700 font-medium mb-1" for="password">Password</label>
+        <input class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" type="password" id="password" placeholder="••••••••">
+      </div>
+      <button class="w-full py-2 px-4 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg transition duration-200">Login</button>
+    </form>
+    <p class="text-center text-gray-600 mt-4">Join us at <a class="text-red-500 underline" href="https://discord.gg/HPL">discord.gg/HPL</a></p>
+  </div>
+</body>
+</html>
